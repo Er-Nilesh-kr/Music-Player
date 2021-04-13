@@ -74,8 +74,8 @@ resume_btn = tk.Button(root, width=5, height=95, font="Cambria 20",
 
 var = tk.StringVar()
 songtitle = tk.Label(root, font="Helvetica 13 bold", textvariable=var)
-Label(root, text="Developed By Nilesh Kr", font="lucida 10",
-      bg="grey", fg="white").pack(fill=X, pady=7)
+Label(root, text="Developed By Nilesh Kr", font="lucida 12",
+      bg="grey", fg="white").pack(fill=BOTH)
 songtitle.pack()
 play_btn.pack(fill="x")
 stop_btn.pack(fill="x")
