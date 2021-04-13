@@ -44,10 +44,10 @@ def ResumeM():
     pygame.mixer.music.unpause()
 
 
-play = Image.open(r'F:\Python Projects\Music Player\image\play.png')
-stop = Image.open(r'F:\Python Projects\Music Player\image\stop.png')
-pause = Image.open(r'F:\Python Projects\Music Player\image\pause.png')
-resume = Image.open(r'F:\Python Projects\Music Player\image\Resume.png')
+play = Image.open(r'F:\Python Projects\Music Player\images\play.png')
+stop = Image.open(r'F:\Python Projects\Music Player\images\stop.png')
+pause = Image.open(r'F:\Python Projects\Music Player\images\pause.png')
+resume = Image.open(r'F:\Python Projects\Music Player\images\Resume.png')
 
 
 play = play.resize((110, 110))
